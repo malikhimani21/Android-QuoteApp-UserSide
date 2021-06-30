@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#FFFAF0"
+    android:padding="10dp"
+    android:gravity="center"
+    tools:context=".InquiryActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:fontFamily="@font/cagliostro"
+        android:padding="10dp"
+        android:text="Inquiry or Feedback"
+        android:textSize="30sp" />
+
+    <EditText
+        android:id="@+id/inquiry_name"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:drawableLeft="@drawable/ic_people_black_24dp"
+        android:drawablePadding="10dp"
+        android:fontFamily="@font/cagliostro"
+        android:hint="Name"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/inquiry_email"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:drawableLeft="@drawable/email"
+        android:drawablePadding="10dp"
+        android:fontFamily="@font/cagliostro"
+        android:hint="Email"
+        android:inputType="textEmailAddress" />
+
+    <EditText
+        android:id="@+id/inquiry_contact"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:drawableLeft="@drawable/ic_phone_android_black_24dp"
+        android:drawablePadding="10dp"
+        android:fontFamily="@font/cagliostro"
+        android:hint="Contact"
+        android:inputType="phone" />
+
+    <EditText
+        android:id="@+id/inquiry_askanything"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:drawableLeft="@drawable/ask"
+        android:drawablePadding="10dp"
+        android:fontFamily="@font/cagliostro"
+        android:hint="Ask Anything"
+        android:inputType="textMultiLine" />
+
+    <EditText
+        android:id="@+id/inquiry_feedback"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:drawableLeft="@drawable/feedback"
+        android:drawablePadding="10dp"
+        android:fontFamily="@font/cagliostro"
+        android:hint="Feedback"
+        android:inputType="textMultiLine" />
+
+
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp">
+
+        <ProgressBar
+            android:id="@+id/inquiry_ProgressBar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:elevation="100dp"
+            android:visibility="gone" />
+
+        <Button
+            android:id="@+id/inquiry_button"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="#FFFAF0"
+            android:text="Send Inquiry" />
+    </FrameLayout>
+
+
+</LinearLayout>

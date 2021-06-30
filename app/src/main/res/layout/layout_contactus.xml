@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFAF0"
+    android:orientation="vertical"
+    android:padding="15dp">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:padding="10dp">
+
+                <ImageView
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:src="@drawable/ic_contacts_black_24dp" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/viewcontact_num1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="15dp"
+                        android:fontFamily="@font/alegreya_sans_sc"
+                        android:padding="5dp"
+                        android:text="Number 1"
+                        android:textColor="#778899"
+                        android:textSize="18sp" />
+
+                    <TextView
+                        android:id="@+id/viewcontact_num2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="15dp"
+                        android:fontFamily="@font/alegreya_sans_sc"
+                        android:padding="5dp"
+                        android:text="Number 2"
+                        android:textColor="#778899"
+                        android:textSize="18sp" />
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#ce2a11" />
+
+
+            <TextView
+                android:id="@+id/viewcontact_email"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:drawableLeft="@drawable/email"
+                android:drawablePadding="15dp"
+                android:fontFamily="@font/alegreya_sans_sc"
+                android:padding="10dp"
+                android:text="Email"
+                android:textColor="#778899"
+                android:textSize="18sp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#ce2a11" />
+
+
+            <TextView
+                android:id="@+id/viewcontact_website"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:drawableLeft="@drawable/website1"
+                android:drawablePadding="15dp"
+                android:fontFamily="@font/alegreya_sans_sc"
+                android:padding="10dp"
+                android:text="Website"
+                android:textColor="#778899"
+                android:textSize="18sp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#ce2a11" />
+
+
+            <TextView
+                android:id="@+id/viewcontact_address"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:drawableLeft="@drawable/ic_location_on_black_24dp"
+                android:drawablePadding="15dp"
+                android:fontFamily="@font/alegreya_sans_sc"
+                android:padding="10dp"
+                android:text="Address"
+                android:textColor="#778899"
+                android:textSize="18sp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#ce2a11" />
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>

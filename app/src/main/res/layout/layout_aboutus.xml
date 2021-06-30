@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#FFFAF0"
+    android:orientation="vertical"
+    android:padding="15dp">
+
+    <TextView
+        android:id="@+id/viewAbout_line1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/alegreya_sans_sc"
+        android:padding="5dp"
+        android:text="Line 1"
+        android:textColor="#778899"
+        android:textSize="18sp" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#f00" />
+
+    <TextView
+        android:id="@+id/viewAbout_line2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/alegreya_sans_sc"
+        android:padding="5dp"
+        android:text="Line 2"
+        android:textColor="#778899"
+        android:textSize="18sp" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#f00" />
+
+    <TextView
+        android:id="@+id/viewAbout_line3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/alegreya_sans_sc"
+        android:padding="5dp"
+        android:text="Line 3"
+        android:textColor="#778899"
+        android:textSize="18sp" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#f00" />
+
+    <TextView
+        android:id="@+id/viewAbout_line4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/alegreya_sans_sc"
+        android:padding="5dp"
+        android:text="Line 4"
+        android:textColor="#778899"
+        android:textSize="18sp" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#f00" />
+
+    <TextView
+        android:id="@+id/viewAbout_line5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/alegreya_sans_sc"
+        android:padding="5dp"
+        android:text="Line 5"
+        android:textColor="#778899"
+        android:textSize="18sp" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#f00" />
+
+
+</LinearLayout>

@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFAF0"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".InsertYourQuotes">
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:layout_gravity="center"
+        android:background="#FFFAF0"
+        android:onClick="openViewQuotesAct"
+        android:text="View Your Inserted Quotes" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="#f00" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:fontFamily="@font/cagliostro"
+        android:padding="10dp"
+        android:text="Insert Your Quotes"
+        android:textSize="30sp" />
+
+    <EditText
+        android:id="@+id/your_quotes_name"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:drawableLeft="@drawable/ic_person_black_24dp"
+        android:drawablePadding="10dp"
+        android:fontFamily="@font/cagliostro"
+        android:hint="Name"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/your_quotes_email"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:drawableLeft="@drawable/ic_people_black_24dp"
+        android:drawablePadding="10dp"
+        android:fontFamily="@font/cagliostro"
+        android:hint="Email"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/your_quotes_contact"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:drawableLeft="@drawable/ic_phone_android_black_24dp"
+        android:drawablePadding="10dp"
+        android:fontFamily="@font/cagliostro"
+        android:hint="Contact"
+        android:inputType="phone" />
+
+
+    <EditText
+        android:id="@+id/your_quotes_insert_quotes"
+        android:layout_width="match_parent"
+        android:layout_height="110dp"
+        android:drawableLeft="@drawable/pass"
+        android:drawablePadding="10dp"
+        android:fontFamily="@font/cagliostro"
+        android:hint="Insert Your Quotes"
+        android:inputType="textMultiLine" />
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp">
+
+        <ProgressBar
+            android:id="@+id/your_quotes_ProgressBar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:elevation="100dp"
+            android:visibility="gone" />
+
+        <Button
+            android:id="@+id/your_quotes_button"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="#FFFAF0"
+            android:text="Insert" />
+    </FrameLayout>
+
+</LinearLayout>

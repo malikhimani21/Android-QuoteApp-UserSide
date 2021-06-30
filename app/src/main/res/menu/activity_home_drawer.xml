@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="@string/menu_home" />
+
+        <item
+            android:id="@+id/nav_quote_list"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Quotes" />
+
+        <item
+            android:id="@+id/nav_image_quotes"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Image Quotes" />
+
+        <item
+            android:id="@+id/nav_your_quotes"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Your Quotes" />
+
+        <item
+            android:id="@+id/nav_inquiry"
+            android:icon="@drawable/ask"
+            android:title="Inquiry" />
+
+        <item
+            android:id="@+id/nav_aboutus"
+            android:icon="@drawable/ic_about"
+            android:title="About US" />
+
+        <item
+            android:id="@+id/nav_contactus"
+            android:icon="@drawable/ic_contacts_black_24dp"
+            android:title="Contact US" />
+
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_share_app"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Share App" />
+            <item
+                android:id="@+id/nav_rate_app"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Rate App" />
+        </menu>
+    </item>
+
+</menu>

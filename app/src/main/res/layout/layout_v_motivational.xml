@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#FFFAF0"
+    android:orientation="vertical"
+    android:padding="15dp">
+
+    <TextView
+        android:id="@+id/v_motivational"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:drawablePadding="15dp"
+        android:fontFamily="@font/alegreya_sans_sc"
+        android:padding="10dp"
+        android:text="Quotes"
+        android:textColor="#778899"
+        android:textSize="18sp" />
+
+</LinearLayout>
